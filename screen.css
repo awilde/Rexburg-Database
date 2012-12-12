@@ -1,0 +1,357 @@
+html {
+  background: #dfdfdf;
+}
+
+#request
+, #detail
+, #solution
+, #notes{
+	vertical-align: top;
+}
+
+#view_log li{
+	list-style-type: none;
+}
+
+body{
+	max-width: 1024px;
+	margin: auto;
+}
+
+
+/*HEADER*/
+#header{
+	min-width: 1024px;
+	max-width: 1024px;
+}
+
+#header_login{
+	max-width: 100%;
+	min-height: 50px;
+	min-width: 100%;
+}
+
+/*.header_login_img{
+	margin: 0 0 0 324px;
+}*/
+
+#header_login_image{
+    margin-top: -20px;
+}
+
+#header_login a{
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+#header_login p{
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+#user_options{
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #fff;
+}
+
+ol#nav_ol{
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol#nav_ol a{
+	background-image:url('http://1211.rexburg.org/images/tabs.png');
+	background-repeat:no-repeat;
+	width: 150px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	padding-bottom: 4px;
+    padding-top: 6px;
+	text-decoration: none;
+}
+
+ol#nav_ol a:visited{
+	background-image:url('/images/tabs.png');
+	background-repeat:no-repeat;
+	width: 150px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	padding-bottom: 4px;
+    padding-top: 6px;
+	text-decoration: none;
+	color: #000;
+
+}
+
+ol#nav_ol a:hover{
+	background-image:url('/images/tabs.png');
+	background-repeat:no-repeat;
+	width: 150px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	padding-bottom: 4px;
+    padding-top: 6px;
+	text-decoration: underline;
+	color: #000;
+
+}
+
+.time_log #nav_ol a[title~="Time"]
+,.specific_date #nav_ol a[title~="Time"]
+,.update_time #nav_ol a[title~="Time"]
+,.log_date #nav_ol a[title~="Time"]
+,.objectives #nav_ol a[title~="Objective"]
+,.add_request #nav_ol a[title~="Objective"]
+,.requests #nav_ol a[title~="Objective"]
+,.update_request #nav_ol a[title~="Objective"]
+,.objective_number #nav_ol a[title~="Objective"]
+,.view_objective #nav_ol a[title~="Objective"]
+,.closed_objective #nav_ol a[title~="Objective"]
+/*, .inventory #nav_ol a[title~="Inventory"]*/
+, .admin #nav_ol a[title~="Admin"]
+, .register #nav_ol a[title~="Admin"]{
+	background-image:url('/images/current_tab.png');
+	background-repeat:no-repeat;
+	color: #fff;
+	width: 150px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	padding-bottom: 4px;
+    padding-top: 6px;
+}
+
+ol#nav_ol a:hover{
+	background-image:url('/images/hover_tab.png');
+	background-repeat:no-repeat;
+	width: 150px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	padding-bottom: 4px;
+    padding-top: 6px;
+
+}
+/*End Header*/
+
+/*DISPLAY CONTENT NAV FOR ALL PAGES*/
+.where_at{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 12px;
+}
+
+.where_at a{
+	text-decoration: none;
+	color: #000;
+}
+
+.where_at a:hover{
+	text-decoration: underline;
+	color: #000;	
+}
+
+.where_at a img{
+	text-decoration: underline;
+	color: #000;
+	border: #fff 1px solid;
+}
+/*End Display Content Nav for all Pages */
+
+/*MAIN CONTENT DIV FOR ALL PAGES*/
+#main_content{
+	margin-top: 30px;
+	border: 1px solid black;
+	padding: 3px;
+	background: #FFF;
+}
+
+#col_1{
+	width: 20%;
+	display: inline-block;
+}
+
+#col_2{
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#time_col_1{
+	width: 10%;
+	display: inline-block;
+}
+
+#time_col_2{
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+/*End Main Content Div for all pages*/
+
+/*FOOTER*/
+.footer_image{
+	padding: 10px;
+}
+
+.footer_image img{
+	width: 250px;
+}
+.connect img{
+	float: right;
+	width: 500px;
+}
+/*End Footer*/
+
+/*DISPLAY TABLES*/
+
+.date_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+.obj_num_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+.dept_cel{
+	width:auto;
+	max-width:80px;
+	min-width:80px;
+}
+
+.obj_dept_cel{
+	width:auto;
+	max-width:100px;
+	min-width:100px;
+}
+
+.requestor_cel{
+	width:auto;
+	max-width:100px;
+	min-width:100px;
+}
+
+.request_cel{
+	width:auto;
+	max-width:150px;
+	min-width:150px;
+}
+
+.activity_cel{
+	width:auto;
+	max-width:55px;
+	min-width:55px;
+}
+
+.detail_cel{
+	width:auto;
+	max-width:55px;
+	min-width:55px;
+}
+
+.start_cel{
+	width:auto;
+	max-width:55px;
+	min-width:55px;
+}
+
+.end_cel{
+	width:auto;
+	max-width:55px;
+	min-width:55px;
+}	
+
+.elapsed_cel{
+	width:auto;
+	max-width:55px;
+	min-width:55px;
+}	
+
+.status_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}	
+
+.notes_cel{
+	width:auto;
+	max-width:150px;
+	min-width:150px;
+}
+
+.assinged_cel{
+	width:auto;
+	max-width:150px;
+	min-width:150px;
+}
+
+.assinged_date_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+.req_date_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+.clar_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+.closed_date_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+.sol_cel{
+	width:auto;
+	max-width:75px;
+	min-width:75px;
+}
+
+
+.date_cel
+,.obj_num_cel
+,.dept_cel
+,.requestor_cel
+,.request_cel
+,.activity_cel
+,.detail_cel
+,.start_cel
+,.end_cel
+,.elapsed_cel
+,.status_cel
+,.notes_cel
+,.assinged_cel
+,.assinged_date_cel
+,.req_date_cel
+,.clar_cel
+,.closed_date_cel
+,.sol_cel{
+	font-size: 14px;
+}
+/*End Display Tables*/
